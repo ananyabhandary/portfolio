@@ -1,93 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
 
-  <!-- Header -->
-  <header>
-    <h1>Your Name</h1>
-    <p>Computer Science & Engineering Student</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <section class="profile">
+        <img src="assets/Screenshot%202025-06-21%20212535.png" alt="Profile Picture" width="200">
+        <h2>Ananya Bhandary</h2>
+        <p>Web Developer | Designer | Learner</p>
+    </section>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="assets/profile.jpg" alt="Your Photo" width="150" />
-    <p>Hello! I'm a passionate Computer Science student interested in Web Development, AI, and Problem Solving.</p>
-  </section>
+    <section class="projects">
+        <h3>Projects</h3>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Weather App</li>
+            <li>To-Do List</li>
+        </ul>
+    </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React.js</li>
-      <li>Node.js & Express</li>
-      <li>Python</li>
-      <li>MongoDB & SQL</li>
-    </ul>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project-item">
-        <h3>Portfolio Website</h3>
-        <p>A personal portfolio website to showcase my projects and skills.</p>
-        <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noreferrer">View Project</a>
-      </div>
-      <div class="project-item">
-        <h3>Chat Application</h3>
-        <p>Real-time chat app using Node.js and Socket.io.</p>
-        <a href="https://github.com/yourusername/chat-app" target="_blank" rel="noreferrer">View Project</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
-
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
-
-      <button type="submit">Send</button>
-    </form>
-    <p id="form-status"></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
-  </footer>
-
-  <script>
-    // Simple form submission simulation
-    document.getElementById('contact-form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const status = document.getElementById('form-status');
-      status.textContent = 'Thank you for contacting me! I will get back to you soon.';
-      this.reset();
-    });
-  </script>
+    <footer>
+        <p>&copy; 2025 Ananya Bhandary. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
- 
