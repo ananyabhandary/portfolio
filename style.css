@@ -1,141 +1,39 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body & font */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Header */
 header {
-  text-align: center;
-  margin-bottom: 40px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
 }
 
-header h1 {
-  font-size: 2.8rem;
-  margin-bottom: 5px;
+.profile {
+    padding: 20px;
 }
 
-header p {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  color: #555;
+.profile img {
+    border-radius: 50%;
+    border: 3px solid #333;
 }
 
-nav a {
-  text-decoration: none;
-  margin: 0 15px;
-  color: #007acc;
-  font-weight: bold;
-  transition: color 0.3s ease;
+.projects {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
-nav a:hover {
-  color: #005f99;
-}
-
-/* Sections */
-section {
-  margin-bottom: 50px;
-}
-
-/* About Section */
-#about img {
-  display: block;
-  margin: 10px auto 20px;
-  border-radius: 50%;
-  border: 3px solid #007acc;
-}
-
-/* Skills */
-#skills ul {
-  list-style-type: square;
-  margin-left: 20px;
-}
-
-/* Projects */
-.project-list {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.project-item {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  flex: 1 1 300px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
-}
-
-.project-item h3 {
-  margin-bottom: 10px;
-  color: #007acc;
-}
-
-.project-item a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #007acc;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.project-item a:hover {
-  text-decoration: underline;
-}
-
-/* Contact Form */
-form {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-}
-
-button {
-  background-color: #007acc;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #005f99;
-}
-
-/* Footer */
 footer {
-  text-align: center;
-  color: #777;
-  font-size: 0.9rem;
-  margin-top: 60px;
-  border-top: 1px solid #ddd;
-  padding-top: 15px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
